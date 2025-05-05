@@ -1,0 +1,10 @@
+{
+	"name": "CardsPlayedText",
+	"plugin-id": "Text",
+	"sid": 560373393048352,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

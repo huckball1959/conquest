@@ -1,0 +1,63 @@
+{
+	"name": "GameEvents",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 860230973679979
+				}
+			],
+			"actions": [],
+			"sid": 473915296289904
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 842847208359882,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "TerritoryMarker"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "TerritoryNumber",
+					"sid": 366500134601882,
+					"parameters": {
+						"instance-variable": "TerritoryID",
+						"comparison": 0,
+						"value": "TerritoryMarker.TerritoryID"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-item",
+					"objectClass": "LocalStorage",
+					"sid": 974412420068055,
+					"parameters": {
+						"key": "\"LastClickedTerritory\"",
+						"value": "TerritoryMarker.TerritoryID"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TerritoryNumber",
+					"sid": 354070283089269,
+					"parameters": {
+						"text": "\"Clicked: \" & TerritoryMarker.TerritoryID"
+					}
+				}
+			],
+			"sid": 142590354735385
+		}
+	],
+	"sid": 457430083948079
+}

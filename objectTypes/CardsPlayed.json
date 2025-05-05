@@ -1,0 +1,9 @@
+{
+	"name": "CardsPlayed",
+	"plugin-id": "List",
+	"sid": 157938804847660,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

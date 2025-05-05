@@ -1,0 +1,21 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "for-each",
+					"objectClass": "System",
+					"sid": 316426042737879,
+					"parameters": {
+						"object": "TerritoryMarker"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 658164972293682
+		}
+	],
+	"sid": 489537229695246
+}
